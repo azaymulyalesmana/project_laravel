@@ -31,6 +31,9 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/jsIntroduction', 'JsintroController@index')->name('jsintro');
     Route::get('/jsIntroduction_next', 'JsintroController@index_next')->name('jsintro_next');
+
+    Route::get('/jsAzay', 'AzayController@index')->name('jsazay');
+    Route::get('/jsAzay_next', 'AzayController@index_next')->name('jsazay_next');
   
 
 });
